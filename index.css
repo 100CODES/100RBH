@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+ * {background-color: #ecfafd;
+   font-family: 'IBM Plex Mono', monospace;
+}
+ .container{
+    
+    width: 330px;
+     height: 700px;
+     border: 2px solid black;
+     margin: 20px auto;
+     border-radius: 5px;
+     
+    
+ }
+ ul {
+    list-style-type:none;
+ }
+  .pic img {
+ 
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+    margin:auto;
+    
+ }
+ .pic img:hover{
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+ }
+ .container:hover{
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+ }
+ .emo{
+    width: 20px;
+    height: 20px;
+ }
+ li .emo, button .emo {
+
+ width: 15px;
+    height: 15px;}
+ .pic{
+    margin:30px auto;
+    width:300px;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    
+ }
+
+ h4,h3{  
+    font-size: 30px;
+    text-align: center;
+ }
+ button {
+    width:216px;
+    height:50px;
+    margin-left: 20px;
+    overflow: hidden;
+    border: 0;
+    cursor: pointer;
+    letter-spacing: 0.05em;
+    background-color :  #FFFFFF;
+     color:  #343a40;
+    border:2px solid #343a40;
+    
+  }
+  button:hover{
+    color:#FFFFFF;
+    background-color:#343a40;
+    border:2px solid #FFFFFF;
+  }
+  .footer img{
+   
+    width: 50px;
+    height: 50px;
+  }
+  .icons{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+  }
+ .copy h1{
+   margin-top: 30px;
+   font-size:20px;
+   text-align: center;
+   font-weight:lighter;
+ }
+  
+  
+
+
